@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "BRAND NAME",
+    "industry": "Industry · What they sell",
+    "website": "brand.com",
+    "logo": ""
+  },
+  "meta": {
+    "title": "Brand Audit & Growth Plan",
+    "preparedBy": "Nisarg Mehta, elevraa.",
+    "date": "Month YYYY"
+  },
+  "hero": {
+    "headline": "One-line hook about the brand. Wrap a word in *stars* for the italic accent.",
+    "intro": "Two or three sentences: what this page covers and why they should read it."
+  },
+  "summary": {
+    "verdict": "Your honest read in 2-3 sentences. Use **double stars** to bold the key point.",
+    "stats": [
+      { "value": "X/10", "label": "Overall brand presence score" },
+      { "value": "X", "label": "Channels underused today" },
+      { "value": "X", "label": "Something worth counting" },
+      { "value": "90 days", "label": "To a repeatable pipeline engine" }
+    ]
+  },
+  "goals": [
+    { "goal": "What they told you they want", "where": "Which section answers it" }
+  ],
+  "scorecard": [
+    { "channel": "Channel name", "score": 5, "status": "working | gap | missing", "note": "One-line reason" }
+  ],
+  "working": [
+    { "title": "What's already good", "detail": "Why it matters and how we build on it." }
+  ],
+  "notDoing": [
+    { "title": "Opportunity they're skipping", "detail": "What it costs them.", "impact": "High | Medium | Low" }
+  ],
+  "missing": [
+    { "title": "Asset or system that doesn't exist yet", "detail": "Why buyers notice." }
+  ],
+  "channels": [
+    {
+      "name": "LinkedIn",
+      "status": "working | gap | missing",
+      "summary": "One-line read on this channel.",
+      "audit": ["**Finding.** What you saw, as specific as possible."],
+      "plan": [{ "title": "What we'll do", "detail": "How, and why it works." }],
+      "kpis": [{ "metric": "What we'll measure", "target": "Target" }]
+    }
+  ],
+  "services": [
+    { "title": "Service", "detail": "What it means for them.", "deliverables": ["Deliverable"], "featured": false }
+  ],
+  "roadmap": [
+    { "phase": "Days 1-30", "title": "Foundation", "items": ["Task"], "outcome": "Where they'll be by day 30." },
+    { "phase": "Days 31-60", "title": "Momentum", "items": ["Task"], "outcome": "Where they'll be by day 60." },
+    { "phase": "Days 61-90", "title": "Pipeline", "items": ["Task"], "outcome": "Where they'll be by day 90." }
+  ],
+  "outcomes": [
+    { "value": "X", "label": "Measurable result" }
+  ],
+  "needs": [
+    "Access or input you need from them"
+  ],
+  "investment": {
+    "sub": "Optional. Delete this whole block to hide pricing.",
+    "options": [
+      { "name": "Plan name", "price": "$X,XXX", "per": "/ month", "detail": "Short description.", "includes": ["Item"], "featured": true }
+    ],
+    "note": "Terms or minimum commitment."
+  },
+  "cta": {
+    "title": "Let's make BRAND the *obvious choice*.",
+    "text": "A 30-minute call to walk through this plan, pressure-test it against your numbers, and agree on what ships first.",
+    "button": "Book a strategy call",
+    "link": "https://calendly.com/nisarg-elevraa/30min"
+  }
+}
