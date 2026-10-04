@@ -1,0 +1,975 @@
+{
+  "brand": {
+    "name": "Foundation",
+    "industry": "B2B content marketing agency",
+    "website": "foundationinc.co",
+    "logo": ""
+  },
+  "meta": {
+    "title": "Growth Proposal",
+    "preparedBy": "Nisarg Mehta, elevraa.",
+    "date": "30-60-90 day plan"
+  },
+  "hero": {
+    "headline": "Foundation's content, turned into *pipeline*.",
+    "intro": "A full breakdown of where Foundation's channels stand today, what I'm proposing to change, why, and exactly how it maps back to the 5 things you asked for. Built to be reviewed, argued with, and edited.",
+    "score": {
+      "value": 4.3,
+      "benchmark": 8.0,
+      "label": "Channel readiness today",
+      "headline": "4.3/10 across 7 channels. The plan targets **8.0** by day 90.",
+      "compare": [
+        {
+          "name": "Ross (LinkedIn)",
+          "value": 7,
+          "me": true
+        },
+        {
+          "name": "Leadership team",
+          "value": 2,
+          "me": true
+        },
+        {
+          "name": "X / Twitter",
+          "value": 7,
+          "me": true
+        },
+        {
+          "name": "Instagram",
+          "value": 4,
+          "me": true
+        },
+        {
+          "name": "YouTube",
+          "value": 4,
+          "me": true
+        },
+        {
+          "name": "Exit Five",
+          "value": 5,
+          "me": true
+        },
+        {
+          "name": "ABM + attribution",
+          "value": 1,
+          "me": true
+        }
+      ]
+    }
+  },
+  "summary": {
+    "title": "Where *Foundation* stands today",
+    "verdict": "The cadence is strong and the voice is distinctive, but **almost everything runs through Ross**, video is inconsistent, and nothing yet connects content to closed deals. In 90 days: every channel on a repeatable cadence, ABM shipped, and **one closed deal traced back to this plan**.",
+    "stats": [
+      {
+        "value": "6",
+        "label": "Executives posting on LinkedIn every week"
+      },
+      {
+        "value": "7",
+        "label": "Channels and programs in this plan"
+      },
+      {
+        "value": "3",
+        "label": "ABM campaigns for dream accounts"
+      },
+      {
+        "value": "90 days",
+        "label": "To a first deal attributed to content"
+      }
+    ]
+  },
+  "goals": [
+    {
+      "goal": "Own and schedule social channels (SEO, AEO, GEO, YouTube, content marketing)",
+      "where": "Channels → LinkedIn, X, Instagram"
+    },
+    {
+      "goal": "Amplify video, manage YouTube uploads and optimisation",
+      "where": "Channels → YouTube"
+    },
+    {
+      "goal": "Actively engage in Exit Five and build rapport with the community",
+      "where": "Channels → Exit Five"
+    },
+    {
+      "goal": "Campaigns for content, webinars, conferences and thought leadership",
+      "where": "Channels → LinkedIn, Instagram, Magazine"
+    },
+    {
+      "goal": "Drive pipeline for sales with AI tools and automation",
+      "where": "Channels → Pipeline, ABM, Magazine"
+    }
+  ],
+  "scorecard": [
+    {
+      "channel": "Ross on LinkedIn",
+      "score": 7,
+      "target": 9,
+      "status": "working",
+      "note": "6-7 posts a week, but little long-form thought leadership"
+    },
+    {
+      "channel": "Leadership team on LinkedIn",
+      "score": 2,
+      "target": 8,
+      "status": "missing",
+      "note": "VP team not actively posting"
+    },
+    {
+      "channel": "X / Twitter",
+      "score": 7,
+      "target": 9,
+      "status": "working",
+      "note": "Strong voice; threads inconsistent, no articles"
+    },
+    {
+      "channel": "Instagram",
+      "score": 4,
+      "target": 7,
+      "status": "gap",
+      "note": "Two accounts split one audience"
+    },
+    {
+      "channel": "YouTube",
+      "score": 4,
+      "target": 8,
+      "status": "gap",
+      "note": "Warm audience, irregular uploads"
+    },
+    {
+      "channel": "Exit Five",
+      "score": 5,
+      "target": 8,
+      "status": "gap",
+      "note": "Real relationship, low volume"
+    },
+    {
+      "channel": "ABM + attribution",
+      "score": 1,
+      "target": 7,
+      "status": "missing",
+      "note": "No dream-account program or content-to-deal tracking"
+    }
+  ],
+  "working": [
+    {
+      "title": "Ross shows up constantly",
+      "detail": "More than six or seven LinkedIn posts a week, plus thought leadership ads around events. Cadence is not the problem."
+    },
+    {
+      "title": "A distinctive voice on X",
+      "detail": "The account that needs the least repositioning of any channel. When threads land, they land well."
+    },
+    {
+      "title": "A warm audience already exists",
+      "detail": "100K podcast listeners. YouTube isn't a cold start."
+    },
+    {
+      "title": "Exit Five already trusts Ross",
+      "detail": "Dave Gerhardt has publicly vouched for him. The job is to compound that relationship, not build one from zero."
+    }
+  ],
+  "notDoing": [
+    {
+      "title": "Activating the VP team",
+      "detail": "Ross is the only one posting regularly. More credible voices mean more touchpoints with buyers.",
+      "impact": "High"
+    },
+    {
+      "title": "LinkedIn-native, long-form thinking",
+      "detail": "Much of the content is repurposed or pre-written short form, and can feel formulaic enough to scroll past.",
+      "impact": "High"
+    },
+    {
+      "title": "Publishing video consistently",
+      "detail": "Uploads are too irregular to build repeat viewers, and one channel is trying to serve two audiences.",
+      "impact": "High"
+    },
+    {
+      "title": "Using X threads and articles",
+      "detail": "No regular thread cadence, and no use yet of X's long-form article format.",
+      "impact": "Medium"
+    },
+    {
+      "title": "Showing up in Exit Five at volume",
+      "detail": "Participation is light-touch rather than constant, public and compounding.",
+      "impact": "Medium"
+    }
+  ],
+  "missing": [
+    {
+      "title": "One Instagram account with a clear job",
+      "detail": "@rosssimmondsig and @thecoolestcool split one audience and neither is clearly positioned."
+    },
+    {
+      "title": "A bottom-of-funnel video layer",
+      "detail": "Nothing tactical and persona-specific to send a prospect three calls into a sales conversation."
+    },
+    {
+      "title": "An ABM program for dream accounts",
+      "detail": "No personalised, physical outreach to the short list of accounts worth a large deal."
+    },
+    {
+      "title": "Content-to-pipeline attribution",
+      "detail": "No way to see which posts, issues or touchpoints influenced a closed deal."
+    },
+    {
+      "title": "A physical touchpoint",
+      "detail": "Every touchpoint competes in the same crowded inbox and feed."
+    }
+  ],
+  "channels": [
+    {
+      "name": "LinkedIn",
+      "status": "working",
+      "summary": "Own Ross's presence around SEO, AEO, GEO, YouTube and content marketing, and activate the full VP leadership team.",
+      "audit": [
+        "**Consistent posting.** Ross is currently the only one posting regularly from both his personal profile and the company page.",
+        "**Largely repurposed.** Much of the content feels pre-written or repurposed from other platforms rather than made for LinkedIn.",
+        "**Limited thought leadership.** Very little long-form, deep content that establishes Ross as a thought leader.",
+        "**VP team underused.** Their profiles could create additional touchpoints with potential customers.",
+        "**Too pre-crafted.** Posts can feel formulaic, which makes them easier to scroll past.",
+        "**Commercial upside.** A warmed-up audience makes webinars and offers easier to sell, including with paid ads."
+      ],
+      "plan": [
+        {
+          "title": "AEO/GEO frontier takes",
+          "detail": "Specific, data-backed opinions on where AI search is heading, the format already landing hardest."
+        },
+        {
+          "title": "Foundation client proof",
+          "detail": "Real, named results (with permission), framed as a story. Can run as ads."
+        },
+        {
+          "title": "Contrarian marketing opinion",
+          "detail": "A defensible counter-take to conventional wisdom, once a week."
+        },
+        {
+          "title": "Behind the build of Distribution.ai",
+          "detail": "Founder-journey content watched by exactly the ICP that needs Foundation."
+        },
+        {
+          "title": "Newsletter and podcast repurposing",
+          "detail": "'What Matters This Week' and 'Create Like The Greats' cut into standalone posts within 48 hours."
+        },
+        {
+          "title": "Executive track",
+          "detail": "Biweekly interviews with each of the 6 executives; I write, they approve. Ross at 8-10 posts a week, each VP at 5."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Cadence established"
+        },
+        {
+          "metric": "Day 60",
+          "target": "Engagement trending up"
+        },
+        {
+          "metric": "Day 90",
+          "target": "First inbound lead attributed"
+        }
+      ]
+    },
+    {
+      "name": "X / Twitter",
+      "status": "working",
+      "summary": "Systemise @TheCoolestCool around the same pillars as LinkedIn, native to how X is actually read. The bio is strong; no change needed.",
+      "audit": [
+        "**Strong, distinctive voice.** Needs more volume of the same kind of content, not repositioning.",
+        "**Threads aren't consistent.** When they land (the psychology thread), they land well, but there's no regular cadence.",
+        "**No long-form articles.** A real gap given how much long-form thinking already exists in the newsletter."
+      ],
+      "plan": [
+        {
+          "title": "Short tweets",
+          "detail": "3-4 a day. Already working; just increase the cadence."
+        },
+        {
+          "title": "Threads",
+          "detail": "12-tweet breakdowns of one specific idea, three times a week, from the same source material as the LinkedIn pillars."
+        },
+        {
+          "title": "Long-form",
+          "detail": "2 X articles a month, a deeper cut of the strongest newsletter issue."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Format mix live"
+        },
+        {
+          "metric": "Day 60",
+          "target": "2+ threads a week, consistently"
+        },
+        {
+          "metric": "Day 90",
+          "target": "Article format tested"
+        }
+      ]
+    },
+    {
+      "name": "Instagram",
+      "status": "gap",
+      "summary": "Merge @rosssimmondsig and @thecoolestcool into one account positioned as Ross's speaker and author channel. Not built for enterprise lead gen.",
+      "audit": [
+        "**One audience, split in half.** A follower of one account has no reason to know the other exists.",
+        "**No clear job.** @thecoolestcool is more active and personal; @rosssimmondsig posts clips. Neither is clearly positioned.",
+        "**Not a content gap.** The problem is structure and positioning, not effort."
+      ],
+      "plan": [
+        {
+          "title": "Merge the accounts",
+          "detail": "One account with a narrow job: keep Ross top of mind with a personal audience, after work hours."
+        },
+        {
+          "title": "Position Ross as a working speaker and author",
+          "detail": "Pipeline stays with LinkedIn, X and ABM; Instagram keeps him likeable and visible between them."
+        },
+        {
+          "title": "Content split",
+          "detail": "Stage clips 35%, behind the scenes 30%, casual marketing takes 20%, author content 15%."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Accounts merged"
+        },
+        {
+          "metric": "Day 60",
+          "target": "3+ Reels a week"
+        },
+        {
+          "metric": "Day 90",
+          "target": "Speaking inquiry attributed"
+        }
+      ]
+    },
+    {
+      "name": "YouTube",
+      "status": "gap",
+      "summary": "Split into two layers with two jobs: a discovery channel built for volume, and a small, high-value series for buyers close to a decision.",
+      "audit": [
+        "**Strong core asset.** 100K podcast listeners is a real, warm audience.",
+        "**Consistency is the gap.** Uploads are too irregular to build habitual, repeat viewers.",
+        "**Two audiences, one channel.** Casual podcast discoverers and people wanting tactical walkthroughs dilute each other."
+      ],
+      "plan": [
+        {
+          "title": "Layer 1, TOFU: 4 videos a month",
+          "detail": "Industry-focused discovery content, built on outlier research before any script is written."
+        },
+        {
+          "title": "Ross's expertise as raw material",
+          "detail": "Top LinkedIn and blog posts become scripts; AI only structures them for YouTube."
+        },
+        {
+          "title": "One hook and body format",
+          "detail": "What it's about, why keep watching, why Ross is credible; then a numbered body. CTAs at ~33% and at the end."
+        },
+        {
+          "title": "Layer 2, BOFU: low volume, high value",
+          "detail": "Real conversations with Foundation's strategists, walking through tactics for a specific persona. Sent to prospects mid-sales-cycle."
+        },
+        {
+          "title": "Judge at 90 days",
+          "detail": "Expect the first 1-2 leads or demos around the 90-day mark."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Pipeline built"
+        },
+        {
+          "metric": "Day 60",
+          "target": "Full cadence live"
+        },
+        {
+          "metric": "Day 90",
+          "target": "Shorts driving channel growth"
+        }
+      ]
+    },
+    {
+      "name": "Exit Five",
+      "status": "gap",
+      "summary": "Not a light-touch presence. The goal is volume with substance, compounding Ross's existing relationship with the community.",
+      "audit": [
+        "**Not a cold community.** Dave Gerhardt has publicly said there's no one better to teach content distribution than Ross.",
+        "**The bar is volume.** One polished post a month won't compound the relationship."
+      ],
+      "plan": [
+        {
+          "title": "Weekly participation rhythm",
+          "detail": "Answering questions and showing up in active threads, not just posting Foundation content."
+        },
+        {
+          "title": "Share every real touchpoint",
+          "detail": "A person met, a tool built, a campaign run: posted as it happens."
+        },
+        {
+          "title": "Dave Gerhardt collaboration",
+          "detail": "A specific proposal for a joint session or guest appearance."
+        },
+        {
+          "title": "A pathway to pipeline",
+          "detail": "Repeat engagers get a warm next step: a resource, the magazine list, or a direct conversation."
+        },
+        {
+          "title": "The magazine's launch channel",
+          "detail": "Exit Five becomes the go-to-market for the monthly magazine."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Rhythm established"
+        },
+        {
+          "metric": "Day 60",
+          "target": "Dave Gerhardt collab proposed"
+        },
+        {
+          "metric": "Day 90",
+          "target": "Collab live or scheduled"
+        }
+      ]
+    },
+    {
+      "name": "Magazine",
+      "status": "missing",
+      "summary": "An evolved, physical version of the newsletter: a month of thinking, delivered to one specific person's desk.",
+      "audit": [
+        "**Every digital touchpoint competes** in the same crowded inbox and feed.",
+        "**The bet:** while competitors invest harder in digital noise, the most memorable thing Foundation can send is something physical and worth sitting with."
+      ],
+      "plan": [
+        {
+          "title": "Three audiences",
+          "detail": "Active clients (retention, expansion), warm pipeline prospects, and a small run to dream accounts."
+        },
+        {
+          "title": "Free to start",
+          "detail": "A relationship asset, not a revenue line. Test paid only once engagement is proven."
+        },
+        {
+          "title": "Issue structure",
+          "detail": "Flagship long-form piece, client spotlight, contrarian take, monthly digest, one data drop, a guest thought leader, a 'Ross is reading' column."
+        },
+        {
+          "title": "Monthly production",
+          "detail": "Week 1 content lock, week 2 design, week 3 print and proof, week 4 ship plus a PDF to newsletter subscribers."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Issue 1 ships"
+        },
+        {
+          "metric": "Day 60",
+          "target": "Issue 2 ships"
+        },
+        {
+          "metric": "Day 90",
+          "target": "First reactivated deal attributed"
+        }
+      ]
+    },
+    {
+      "name": "ABM",
+      "status": "missing",
+      "summary": "Three physical direct-mail campaigns for Foundation's highest-value dream accounts, built with the sales team.",
+      "audit": [
+        "**Everything else here is demand generation:** broad content that lets buyers self-select.",
+        "**ABM works backwards:** pick the dream accounts first, then build something personal for each one.",
+        "**Cold email** gets around a 1-3% reply rate; a well-built physical ABM campaign to 15-25 accounts routinely gets 20-40%.",
+        "**Expensive per account, by design.** Built for a short list worth a large deal."
+      ],
+      "plan": [
+        {
+          "title": "The Share of Model Report",
+          "detail": "A bound report showing the prospect's real visibility in ChatGPT, Perplexity and Gemini against named competitors. 20 accounts a quarter."
+        },
+        {
+          "title": "The Content Debt Ledger",
+          "detail": "Their own decaying blog archive presented as financial debt, with a real cost per page. 15 accounts a quarter."
+        },
+        {
+          "title": "The Sealed Competitive Dossier",
+          "detail": "A confidential-styled analysis of where a named rival is winning in search, Reddit and AI answers. 10-12 accounts a quarter."
+        },
+        {
+          "title": "Coordinated sequences",
+          "detail": "LinkedIn warm-up before shipping, then heads-up, follow-up and meeting-ask emails timed to delivery."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Primary metric",
+          "target": "Meeting-booked rate per account"
+        },
+        {
+          "metric": "Dossier campaign",
+          "target": "Deal size"
+        },
+        {
+          "metric": "Launch",
+          "target": "Activated in weeks 9-12"
+        }
+      ]
+    },
+    {
+      "name": "Pipeline",
+      "status": "missing",
+      "summary": "Use AI tools and automation to turn everything above into an attributable pipeline system.",
+      "audit": [
+        "**To be confirmed with the team:** what's already in place (CRM, automation, lead scoring) versus what needs building."
+      ],
+      "plan": [
+        {
+          "title": "Content-to-lead scoring",
+          "detail": "Track which posts, issues and articles a prospect engages with before a sales conversation."
+        },
+        {
+          "title": "Warm-signal sequences",
+          "detail": "Repeat engagers get a warmer outreach sequence than a cold list."
+        },
+        {
+          "title": "Intent capture into the CRM",
+          "detail": "Engagement signals feed whichever CRM the team already uses."
+        },
+        {
+          "title": "A real attribution model",
+          "detail": "When a deal closes, the content and community touchpoints behind it are logged, not guessed."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "Day 30",
+          "target": "Tracking built"
+        },
+        {
+          "metric": "Day 60",
+          "target": "First signals captured"
+        },
+        {
+          "metric": "Day 90",
+          "target": "First closed deal attributed"
+        }
+      ]
+    }
+  ],
+  "prioritiesSub": "Every initiative in this plan, placed by expected impact on pipeline against effort to ship. Placement is my estimate from the audit.",
+  "priorities": [
+    {
+      "label": "Activate all 6 executives on LinkedIn",
+      "impact": 8.8,
+      "effort": 5.8
+    },
+    {
+      "label": "Raise X cadence: daily tweets, 3 threads a week",
+      "impact": 6,
+      "effort": 3
+    },
+    {
+      "label": "Dave Gerhardt collaboration proposal",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "label": "Exit Five weekly participation",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "label": "Merge the Instagram accounts",
+      "impact": 4,
+      "effort": 2.5
+    },
+    {
+      "label": "YouTube TOFU, 4 videos a month",
+      "impact": 7,
+      "effort": 7.5
+    },
+    {
+      "label": "BOFU video series for prospects",
+      "impact": 7.5,
+      "effort": 5
+    },
+    {
+      "label": "Content-to-pipeline attribution",
+      "impact": 8.5,
+      "effort": 5.5
+    },
+    {
+      "label": "ABM: Share of Model Report",
+      "impact": 9.5,
+      "effort": 7
+    },
+    {
+      "label": "ABM: Sealed Competitive Dossier",
+      "impact": 8.5,
+      "effort": 9
+    },
+    {
+      "label": "Monthly print magazine",
+      "impact": 6.5,
+      "effort": 8.5
+    }
+  ],
+  "contentEngine": {
+    "title": "What goes out, and *when*",
+    "sub": "Cadences from the plan: Ross 8-10 LinkedIn posts a week, each VP 5, 3-4 tweets a day, 3 threads a week, 2 X articles and 4 YouTube videos a month.",
+    "mixHint": "Instagram: share of output by content type.",
+    "center": {
+      "value": "1",
+      "label": "merged account"
+    },
+    "mix": [
+      {
+        "name": "Speaking and stage clips",
+        "pct": 35,
+        "detail": "BrightonSEO and every 2026 stage, cut for Reels"
+      },
+      {
+        "name": "Behind the scenes",
+        "pct": 30,
+        "detail": "Travel, prep, building a company and a book"
+      },
+      {
+        "name": "Casual marketing takes",
+        "pct": 20,
+        "detail": "Lighter versions of the LinkedIn and X ideas"
+      },
+      {
+        "name": "Author positioning",
+        "pct": 15,
+        "detail": "Create Once, Distribute Forever"
+      }
+    ],
+    "weekHint": "An illustrative week built from those cadences.",
+    "week": [
+      {
+        "day": "Mon",
+        "slots": [
+          {
+            "title": "AEO/GEO frontier take",
+            "who": "Ross · LinkedIn"
+          },
+          {
+            "title": "Leadership posts",
+            "who": "COO + 2 VPs"
+          },
+          {
+            "title": "12-tweet thread",
+            "who": "Ross · X"
+          }
+        ]
+      },
+      {
+        "day": "Tue",
+        "slots": [
+          {
+            "title": "Client proof story",
+            "who": "Ross · LinkedIn"
+          },
+          {
+            "title": "Leadership posts",
+            "who": "3 VPs"
+          },
+          {
+            "title": "Exit Five participation",
+            "who": "Community"
+          }
+        ]
+      },
+      {
+        "day": "Wed",
+        "slots": [
+          {
+            "title": "Contrarian opinion",
+            "who": "Ross · LinkedIn"
+          },
+          {
+            "title": "12-tweet thread",
+            "who": "Ross · X"
+          },
+          {
+            "title": "YouTube video",
+            "who": "Weekly"
+          }
+        ]
+      },
+      {
+        "day": "Thu",
+        "slots": [
+          {
+            "title": "Newsletter repurpose",
+            "who": "Ross · LinkedIn"
+          },
+          {
+            "title": "Leadership posts",
+            "who": "All 5 VPs"
+          },
+          {
+            "title": "Stage clip Reel",
+            "who": "Instagram"
+          }
+        ]
+      },
+      {
+        "day": "Fri",
+        "slots": [
+          {
+            "title": "Behind the build",
+            "who": "Ross · LinkedIn"
+          },
+          {
+            "title": "12-tweet thread",
+            "who": "Ross · X"
+          },
+          {
+            "title": "Touchpoint share",
+            "who": "Exit Five"
+          }
+        ]
+      }
+    ]
+  },
+  "servicesTitle": "What I'll *own*",
+  "servicesSub": "The five things you asked for, grouped into three areas of ownership.",
+  "services": [
+    {
+      "title": "Executive and social content",
+      "detail": "LinkedIn for Ross and the full leadership team, X, and one repositioned Instagram account.",
+      "deliverables": [
+        "Biweekly interviews with all 6 executives",
+        "Engagement feeds and connection lists",
+        "X short-form, threads and articles",
+        "Merged Instagram account"
+      ]
+    },
+    {
+      "title": "Video and community",
+      "detail": "A consistent YouTube engine in two layers, and real volume inside Exit Five.",
+      "deliverables": [
+        "4 TOFU videos a month",
+        "BOFU series for prospects",
+        "Weekly Exit Five rhythm",
+        "Dave Gerhardt collaboration"
+      ],
+      "featured": true
+    },
+    {
+      "title": "Pipeline programs",
+      "detail": "The work that connects content to closed deals, built with the sales team.",
+      "deliverables": [
+        "Three ABM direct-mail campaigns",
+        "Monthly print magazine",
+        "AI-led lead magnet",
+        "Content-to-pipeline attribution"
+      ]
+    }
+  ],
+  "timeline": {
+    "lanes": [
+      "Discovery & sales",
+      "Written channels",
+      "Video",
+      "Community",
+      "ABM & assets"
+    ],
+    "rows": [
+      {
+        "task": "Sales cycle and client understanding",
+        "lane": 0,
+        "start": 1,
+        "end": 4
+      },
+      {
+        "task": "Executive interviews + LinkedIn profiles",
+        "lane": 1,
+        "start": 1,
+        "end": 1
+      },
+      {
+        "task": "LinkedIn for all 6 executives",
+        "lane": 1,
+        "start": 1,
+        "end": 12
+      },
+      {
+        "task": "X: daily tweets, threads, articles",
+        "lane": 1,
+        "start": 2,
+        "end": 12
+      },
+      {
+        "task": "Exit Five personas + participation",
+        "lane": 3,
+        "start": 3,
+        "end": 12
+      },
+      {
+        "task": "Instagram + YouTube planning",
+        "lane": 2,
+        "start": 2,
+        "end": 4
+      },
+      {
+        "task": "Instagram live",
+        "lane": 2,
+        "start": 5,
+        "end": 12
+      },
+      {
+        "task": "YouTube TOFU, 4 a month",
+        "lane": 2,
+        "start": 5,
+        "end": 12
+      },
+      {
+        "task": "ABM discovery + target accounts",
+        "lane": 4,
+        "start": 5,
+        "end": 8
+      },
+      {
+        "task": "High-value asset / AI lead magnet",
+        "lane": 4,
+        "start": 5,
+        "end": 12
+      },
+      {
+        "task": "ABM build + personalisation",
+        "lane": 4,
+        "start": 9,
+        "end": 11
+      },
+      {
+        "task": "ABM activation + 90-day review",
+        "lane": 0,
+        "start": 12,
+        "end": 12
+      }
+    ]
+  },
+  "roadmapSub": "Preceded by a Week 0 discovery sprint with Ross, marketing, content and sales: GTM and sales process, offers and pricing, ICP, competitors, and 6- and 12-month goals. Nothing ships under Foundation's name until that's understood.",
+  "roadmap": [
+    {
+      "phase": "Days 1-30",
+      "title": "Written content goes live",
+      "items": [
+        "First interviews with all 5-6 executives; pillars set per person",
+        "First week of leadership content shipped by Thursday of week 1",
+        "X posting live: short-form, threads, articles",
+        "Exit Five personas defined, first in-depth content posted",
+        "Backend: Instagram and YouTube plan, scripts and TOFU/BOFU split"
+      ],
+      "outcome": "LinkedIn, X and Exit Five running on cadence; video ready to activate."
+    },
+    {
+      "phase": "Days 31-60",
+      "title": "Video goes live",
+      "items": [
+        "Instagram publishing; first YouTube TOFU videos in production",
+        "YouTube at the full 4-a-month pace; BOFU format and first guest confirmed",
+        "Backend: ABM target accounts and campaign concepts with sales",
+        "Backend: AI-driven high-value asset brief"
+      ],
+      "outcome": "All five channels live, with an ABM briefing document ready to build."
+    },
+    {
+      "phase": "Days 61-90",
+      "title": "ABM and assets ship",
+      "items": [
+        "ABM journey, landing pages and account-specific assets built",
+        "Sales and marketing aligned on sequences, signals and handoffs",
+        "High-value asset launched with coordinated distribution",
+        "ABM activation begins"
+      ],
+      "outcome": "First honest attribution report and a specific Q2 recommendation."
+    }
+  ],
+  "outcomesTitle": "What success looks like at *day 90*",
+  "outcomesSub": "North star: attributed pipeline value connected back to a specific piece of content or community touchpoint. Everything in this plan exists to move that one number.",
+  "outcomes": [
+    {
+      "value": "6",
+      "label": "Executives publishing every week"
+    },
+    {
+      "value": "5",
+      "label": "Channels live on a repeatable cadence"
+    },
+    {
+      "value": "3",
+      "label": "ABM campaigns built and activated"
+    },
+    {
+      "value": "1+",
+      "label": "Closed deal traced back to content"
+    }
+  ],
+  "needs": [
+    "Admin or scheduler access to LinkedIn, X and Instagram",
+    "YouTube channel access with upload and edit permissions",
+    "CRM access, whichever system is in use",
+    "Newsletter and podcast backend access for repurposing",
+    "Design support for the magazine, about 1-2 days per issue",
+    "Video editing support for Shorts and Reels",
+    "A confirmed print partner for the magazine (sourced together in week 1 if needed)",
+    "48-hour approvals: drafts in a batch, no response defaults to approved",
+    "Trust to operate with an owner's mindset, judged on results"
+  ],
+  "investment": {
+    "title": "Magazine *budget*",
+    "sub": "Monthly print and postage by volume tier. Design template ($800) is reused each month. Freelance support, AI tooling and a learning budget are scoped in week 1.",
+    "options": [
+      {
+        "name": "250 copies",
+        "price": "~$2,650",
+        "per": "/ month",
+        "detail": "Print $4.10 and postage $3.20 per copy.",
+        "includes": [
+          "Clients and warm pipeline",
+          "Small dream-account run"
+        ]
+      },
+      {
+        "name": "500 copies",
+        "price": "~$4,100",
+        "per": "/ month",
+        "detail": "Print $3.40 and postage $3.20 per copy.",
+        "includes": [
+          "Clients and warm pipeline",
+          "Wider dream-account list"
+        ]
+      },
+      {
+        "name": "1,000 copies",
+        "price": "~$6,800",
+        "per": "/ month",
+        "detail": "Print $2.80 and postage $3.20 per copy.",
+        "includes": [
+          "Full distribution list",
+          "Lowest cost per copy"
+        ]
+      }
+    ],
+    "note": "Recommendation: free for clients and active pipeline. Test a paid option only once engagement is proven."
+  },
+  "cta": {
+    "title": "Let's make Foundation *impossible to miss*.",
+    "text": "A 30-minute call to walk through this plan, pressure-test it against your goals, and agree on what ships first.",
+    "button": "Book a call",
+    "link": "https://calendly.com/nisarg-elevraa/30min"
+  },
+  "footnote": "Prepared as a working proposal for Foundation. Figures and timelines are proposed starting points, open to revision once we align. Channel scores and priority placements are estimates from the audit."
+}
