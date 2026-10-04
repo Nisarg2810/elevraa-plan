@@ -12,48 +12,343 @@
   },
   "hero": {
     "headline": "Great product. *Quiet brand.* Here's how we fix that.",
-    "intro": "A full breakdown of where Northwind's brand and channels stand today, what you're not doing yet, what's missing, and exactly what elevraa. would change in the next 90 days. Built to be reviewed, argued with, and edited."
+    "intro": "A full breakdown of where Northwind's brand and channels stand today, what you're not doing yet, what's missing, and exactly what elevraa. would change in the next 90 days. Built to be reviewed, argued with, and edited.",
+    "score": {
+      "value": 4.6,
+      "benchmark": 7.8,
+      "label": "Brand presence score",
+      "headline": "4.6/10. The category leader sits at **7.8**.",
+      "compare": [
+        {
+          "name": "Northwind",
+          "value": 4.6,
+          "me": true
+        },
+        {
+          "name": "Mixpanel",
+          "value": 7.8
+        },
+        {
+          "name": "Amplitude",
+          "value": 7.1
+        },
+        {
+          "name": "PostHog",
+          "value": 6.4
+        }
+      ]
+    }
   },
   "summary": {
     "verdict": "Northwind wins almost every deal it gets into. The problem is it **isn't in enough deals**. Buyers in your category know Mixpanel and Amplitude by name; they find Northwind by accident. The fix isn't more ads. It's becoming the name buyers already trust before they start shopping.",
     "stats": [
-      { "value": "4.6/10", "label": "Overall brand presence score" },
-      { "value": "3", "label": "Channels underused today" },
-      { "value": "1", "label": "Voice posting (the founder)" },
-      { "value": "90 days", "label": "To a repeatable pipeline engine" }
+      {
+        "value": "4.6/10",
+        "label": "Overall brand presence score"
+      },
+      {
+        "value": "3",
+        "label": "Channels underused today"
+      },
+      {
+        "value": "1",
+        "label": "Voice posting (the founder)"
+      },
+      {
+        "value": "90 days",
+        "label": "To a repeatable pipeline engine"
+      }
     ]
   },
   "goals": [
-    { "goal": "Build founder and leadership presence on LinkedIn", "where": "Channels → LinkedIn, Roadmap days 1-30" },
-    { "goal": "Generate demos from mid-market product teams", "where": "Channels → ABM, What we'll do #2" },
-    { "goal": "Turn customer wins into sales assets", "where": "What's missing, What we'll do #3" },
-    { "goal": "Make the website convert the traffic you already get", "where": "Channels → Website" }
+    {
+      "goal": "Build founder and leadership presence on LinkedIn",
+      "where": "Channels → LinkedIn, Roadmap days 1-30"
+    },
+    {
+      "goal": "Generate demos from mid-market product teams",
+      "where": "Channels → ABM, What we'll do #2"
+    },
+    {
+      "goal": "Turn customer wins into sales assets",
+      "where": "What's missing, What we'll do #3"
+    },
+    {
+      "goal": "Make the website convert the traffic you already get",
+      "where": "Channels → Website"
+    }
   ],
+  "benchmark": {
+    "sub": "How buyers experience Northwind next to the three brands they compare you with most.",
+    "radar": {
+      "axes": [
+        "Positioning",
+        "Thought leadership",
+        "Customer proof",
+        "Distribution",
+        "Website conversion",
+        "Consistency"
+      ],
+      "series": [
+        {
+          "name": "Northwind",
+          "values": [
+            4,
+            5,
+            2,
+            4,
+            5,
+            6
+          ],
+          "me": true
+        },
+        {
+          "name": "Mixpanel",
+          "values": [
+            8,
+            7,
+            8,
+            9,
+            7,
+            8
+          ]
+        },
+        {
+          "name": "PostHog",
+          "values": [
+            9,
+            8,
+            5,
+            7,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "shareOfVoice": [
+      {
+        "name": "Mixpanel",
+        "value": 38
+      },
+      {
+        "name": "Amplitude",
+        "value": 29
+      },
+      {
+        "name": "PostHog",
+        "value": 21
+      },
+      {
+        "name": "Heap",
+        "value": 8
+      },
+      {
+        "name": "Northwind",
+        "value": 4,
+        "me": true
+      }
+    ],
+    "sovNote": "Northwind wins on product but owns **4%** of the conversation. Every point of share we take is a buyer who hears your name first.",
+    "compare": {
+      "columns": [
+        "Northwind",
+        "Mixpanel",
+        "Amplitude",
+        "PostHog"
+      ],
+      "rows": [
+        {
+          "feature": "Clear one-line positioning",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Founder posting weekly",
+          "values": [
+            "yes",
+            "part",
+            "part",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Leadership voices on LinkedIn",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "part"
+          ]
+        },
+        {
+          "feature": "Published case studies with numbers",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "part"
+          ]
+        },
+        {
+          "feature": "Lead magnet / benchmark report",
+          "values": [
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ]
+        },
+        {
+          "feature": "Account-based programs",
+          "values": [
+            "part",
+            "yes",
+            "yes",
+            "no"
+          ]
+        }
+      ]
+    }
+  },
   "scorecard": [
-    { "channel": "Founder LinkedIn", "score": 7, "status": "working", "note": "Consistent, but mostly product updates" },
-    { "channel": "Leadership team on LinkedIn", "score": 2, "status": "missing", "note": "VP Sales and CPO not posting" },
-    { "channel": "Company page", "score": 4, "status": "gap", "note": "Reposts only, no original content" },
-    { "channel": "Website messaging", "score": 5, "status": "gap", "note": "Feature-led, not outcome-led" },
-    { "channel": "Customer proof", "score": 3, "status": "missing", "note": "Logos, but no stories or numbers" },
-    { "channel": "Outbound / ABM", "score": 3, "status": "gap", "note": "Generic sequences, no account focus" }
+    {
+      "channel": "Founder LinkedIn",
+      "score": 7,
+      "status": "working",
+      "note": "Consistent, but mostly product updates",
+      "target": 9
+    },
+    {
+      "channel": "Leadership team on LinkedIn",
+      "score": 2,
+      "status": "missing",
+      "note": "VP Sales and CPO not posting",
+      "target": 7
+    },
+    {
+      "channel": "Company page",
+      "score": 4,
+      "status": "gap",
+      "note": "Reposts only, no original content",
+      "target": 7
+    },
+    {
+      "channel": "Website messaging",
+      "score": 5,
+      "status": "gap",
+      "note": "Feature-led, not outcome-led",
+      "target": 8
+    },
+    {
+      "channel": "Customer proof",
+      "score": 3,
+      "status": "missing",
+      "note": "Logos, but no stories or numbers",
+      "target": 8
+    },
+    {
+      "channel": "Outbound / ABM",
+      "score": 3,
+      "status": "gap",
+      "note": "Generic sequences, no account focus",
+      "target": 7
+    }
   ],
   "working": [
-    { "title": "Founder shows up every week", "detail": "Three to four posts a week with a loyal core audience. The habit is there; the angle needs sharpening." },
-    { "title": "Product is genuinely loved", "detail": "4.8 on G2 with specific, emotional reviews. That's raw material most brands would pay for." },
-    { "title": "Clear ICP on paper", "detail": "Mid-market product teams, 50-500 employees. Sales knows exactly who buys." }
+    {
+      "title": "Founder shows up every week",
+      "detail": "Three to four posts a week with a loyal core audience. The habit is there; the angle needs sharpening."
+    },
+    {
+      "title": "Product is genuinely loved",
+      "detail": "4.8 on G2 with specific, emotional reviews. That's raw material most brands would pay for."
+    },
+    {
+      "title": "Clear ICP on paper",
+      "detail": "Mid-market product teams, 50-500 employees. Sales knows exactly who buys."
+    }
   ],
   "notDoing": [
-    { "title": "Activating the leadership team", "detail": "Only one voice posting means one source of trust. Buyers want to hear from the people they'll actually work with.", "impact": "High" },
-    { "title": "Telling customer stories", "detail": "Wins live in Slack and sales calls, never on the timeline or the website.", "impact": "High" },
-    { "title": "Owning a point of view", "detail": "Content explains features. Nobody is saying what Northwind believes about how product teams should work.", "impact": "Medium" },
-    { "title": "Warming target accounts before outreach", "detail": "Sales cold-emails accounts that have never seen the brand.", "impact": "Medium" }
+    {
+      "title": "Activating the leadership team",
+      "detail": "Only one voice posting means one source of trust. Buyers want to hear from the people they'll actually work with.",
+      "impact": "High"
+    },
+    {
+      "title": "Telling customer stories",
+      "detail": "Wins live in Slack and sales calls, never on the timeline or the website.",
+      "impact": "High"
+    },
+    {
+      "title": "Owning a point of view",
+      "detail": "Content explains features. Nobody is saying what Northwind believes about how product teams should work.",
+      "impact": "Medium"
+    },
+    {
+      "title": "Warming target accounts before outreach",
+      "detail": "Sales cold-emails accounts that have never seen the brand.",
+      "impact": "Medium"
+    }
   ],
   "missing": [
-    { "title": "A one-line positioning statement", "detail": "Homepage, LinkedIn bios and the sales deck each describe Northwind differently." },
-    { "title": "Case studies with numbers", "detail": "Zero published. Every competitor has at least five." },
-    { "title": "A lead magnet worth trading an email for", "detail": "No guide, benchmark or template that captures intent from content readers." },
-    { "title": "Attribution from content to pipeline", "detail": "No way to see which posts or pages influence demos." }
+    {
+      "title": "A one-line positioning statement",
+      "detail": "Homepage, LinkedIn bios and the sales deck each describe Northwind differently."
+    },
+    {
+      "title": "Case studies with numbers",
+      "detail": "Zero published. Every competitor has at least five."
+    },
+    {
+      "title": "A lead magnet worth trading an email for",
+      "detail": "No guide, benchmark or template that captures intent from content readers."
+    },
+    {
+      "title": "Attribution from content to pipeline",
+      "detail": "No way to see which posts or pages influence demos."
+    }
   ],
+  "funnel": {
+    "sub": "Monthly numbers from your analytics and CRM. The biggest drop is between attention and trust.",
+    "stages": [
+      {
+        "stage": "Aware of Northwind",
+        "value": "18K",
+        "metric": "ICP reach / month",
+        "status": "gap",
+        "note": "Reach comes almost entirely from the founder's profile.",
+        "leak": "Only 6% visit the website"
+      },
+      {
+        "stage": "Website visit",
+        "value": "1,100",
+        "metric": "ICP visits / month",
+        "status": "gap",
+        "note": "Feature-led homepage, no proof above the fold.",
+        "leak": "1.8% convert to a demo request"
+      },
+      {
+        "stage": "Demo booked",
+        "value": "20",
+        "metric": "demos / month",
+        "status": "missing",
+        "note": "No path for visitors who aren't ready to talk yet.",
+        "leak": "30% of demos become customers"
+      },
+      {
+        "stage": "Closed won",
+        "value": "6",
+        "metric": "deals / month",
+        "status": "working",
+        "note": "**30% demo-to-close.** The product sells itself once buyers see it."
+      }
+    ]
+  },
   "channels": [
     {
       "name": "LinkedIn",
@@ -66,15 +361,35 @@
         "**No long-form thinking.** Nothing that shows how Northwind sees the future of product analytics."
       ],
       "plan": [
-        { "title": "Four content pillars", "detail": "Point-of-view takes, customer proof, behind-the-build, and practical playbooks." },
-        { "title": "Executive track", "detail": "Bi-weekly 30-minute interview with each leader; we write, they approve." },
-        { "title": "Repurposing system", "detail": "Every webinar and blog becomes 3-5 native LinkedIn posts within 48 hours." }
+        {
+          "title": "Four content pillars",
+          "detail": "Point-of-view takes, customer proof, behind-the-build, and practical playbooks."
+        },
+        {
+          "title": "Executive track",
+          "detail": "Bi-weekly 30-minute interview with each leader; we write, they approve."
+        },
+        {
+          "title": "Repurposing system",
+          "detail": "Every webinar and blog becomes 3-5 native LinkedIn posts within 48 hours."
+        }
       ],
       "kpis": [
-        { "metric": "Active voices posting weekly", "target": "1 → 4" },
-        { "metric": "Profile views from ICP titles", "target": "+150%" },
-        { "metric": "Inbound DMs and demo mentions", "target": "8+ / month" }
-      ]
+        {
+          "metric": "Active voices posting weekly",
+          "target": "1 → 4"
+        },
+        {
+          "metric": "Profile views from ICP titles",
+          "target": "+150%"
+        },
+        {
+          "metric": "Inbound DMs and demo mentions",
+          "target": "8+ / month"
+        }
+      ],
+      "score": 6,
+      "target": 9
     },
     {
       "name": "Website",
@@ -86,14 +401,31 @@
         "**One call to action** (book a demo) with nothing for visitors who aren't ready yet."
       ],
       "plan": [
-        { "title": "Outcome-led homepage", "detail": "Rewrite hero, sub-copy and section flow around the buyer's problem." },
-        { "title": "Proof everywhere", "detail": "Case study snippets and G2 quotes on every key page." },
-        { "title": "Second conversion path", "detail": "A benchmark report as a lead magnet for earlier-stage visitors." }
+        {
+          "title": "Outcome-led homepage",
+          "detail": "Rewrite hero, sub-copy and section flow around the buyer's problem."
+        },
+        {
+          "title": "Proof everywhere",
+          "detail": "Case study snippets and G2 quotes on every key page."
+        },
+        {
+          "title": "Second conversion path",
+          "detail": "A benchmark report as a lead magnet for earlier-stage visitors."
+        }
       ],
       "kpis": [
-        { "metric": "Homepage to demo conversion", "target": "+30%" },
-        { "metric": "Lead magnet sign-ups", "target": "150+ / month" }
-      ]
+        {
+          "metric": "Homepage to demo conversion",
+          "target": "+30%"
+        },
+        {
+          "metric": "Lead magnet sign-ups",
+          "target": "150+ / month"
+        }
+      ],
+      "score": 5,
+      "target": 8
     },
     {
       "name": "Customer proof",
@@ -104,10 +436,23 @@
         "**G2 reviews are strong** but never quoted in content or sales materials."
       ],
       "plan": [
-        { "title": "Three hero case studies", "detail": "Interview, write and design stories with real numbers." },
-        { "title": "Proof library", "detail": "Quotes, stats and screenshots sales can drop into any deck or email." }
+        {
+          "title": "Three hero case studies",
+          "detail": "Interview, write and design stories with real numbers."
+        },
+        {
+          "title": "Proof library",
+          "detail": "Quotes, stats and screenshots sales can drop into any deck or email."
+        }
       ],
-      "kpis": [{ "metric": "Published case studies", "target": "0 → 3" }]
+      "kpis": [
+        {
+          "metric": "Published case studies",
+          "target": "0 → 3"
+        }
+      ],
+      "score": 3,
+      "target": 8
     },
     {
       "name": "ABM",
@@ -118,59 +463,358 @@
         "**No coordination** between content and sales on target accounts."
       ],
       "plan": [
-        { "title": "Tier-1 account list", "detail": "100 accounts with mapped buying committees." },
-        { "title": "Warm-up sequence", "detail": "Targeted content and engagement for 3 weeks before any outreach." },
-        { "title": "Personalised outreach", "detail": "Account-specific angles written with sales." }
+        {
+          "title": "Tier-1 account list",
+          "detail": "100 accounts with mapped buying committees."
+        },
+        {
+          "title": "Warm-up sequence",
+          "detail": "Targeted content and engagement for 3 weeks before any outreach."
+        },
+        {
+          "title": "Personalised outreach",
+          "detail": "Account-specific angles written with sales."
+        }
       ],
       "kpis": [
-        { "metric": "Reply rate", "target": "2% → 15%" },
-        { "metric": "Qualified meetings", "target": "20+ in 90 days" }
-      ]
+        {
+          "metric": "Reply rate",
+          "target": "2% → 15%"
+        },
+        {
+          "metric": "Qualified meetings",
+          "target": "20+ in 90 days"
+        }
+      ],
+      "score": 3,
+      "target": 7
     }
   ],
+  "priorities": [
+    {
+      "label": "Rewrite homepage hero around one outcome",
+      "impact": 8,
+      "effort": 3
+    },
+    {
+      "label": "Publish 3 case studies with numbers",
+      "impact": 9,
+      "effort": 4.5
+    },
+    {
+      "label": "Activate leadership team on LinkedIn",
+      "impact": 8.5,
+      "effort": 6.5
+    },
+    {
+      "label": "Tier-1 ABM program on 100 accounts",
+      "impact": 9,
+      "effort": 8
+    },
+    {
+      "label": "Benchmark report lead magnet",
+      "impact": 7,
+      "effort": 7
+    },
+    {
+      "label": "Refresh company page content",
+      "impact": 4,
+      "effort": 2.5
+    },
+    {
+      "label": "Rebuild the full website",
+      "impact": 5,
+      "effort": 9
+    }
+  ],
+  "contentEngine": {
+    "sub": "Four pillars, built around what already works, across four voices.",
+    "center": {
+      "value": "14",
+      "label": "posts / week"
+    },
+    "mix": [
+      {
+        "name": "Point of view",
+        "pct": 30,
+        "detail": "Opinions on how product teams should work"
+      },
+      {
+        "name": "Customer proof",
+        "pct": 25,
+        "detail": "Wins, numbers and stories"
+      },
+      {
+        "name": "Playbooks",
+        "pct": 25,
+        "detail": "Practical how-tos buyers save"
+      },
+      {
+        "name": "Behind the build",
+        "pct": 20,
+        "detail": "Product and founder journey"
+      }
+    ],
+    "week": [
+      {
+        "day": "Mon",
+        "slots": [
+          {
+            "title": "Point-of-view post",
+            "who": "Founder"
+          },
+          {
+            "title": "Pipeline lesson",
+            "who": "VP Sales"
+          }
+        ]
+      },
+      {
+        "day": "Tue",
+        "slots": [
+          {
+            "title": "Customer story",
+            "who": "Company page"
+          },
+          {
+            "title": "Product insight",
+            "who": "CPO"
+          }
+        ]
+      },
+      {
+        "day": "Wed",
+        "slots": [
+          {
+            "title": "Playbook carousel",
+            "who": "Founder"
+          },
+          {
+            "title": "Deal teardown",
+            "who": "VP Sales"
+          }
+        ]
+      },
+      {
+        "day": "Thu",
+        "slots": [
+          {
+            "title": "Behind the build",
+            "who": "CPO"
+          },
+          {
+            "title": "Benchmark stat",
+            "who": "Company page"
+          }
+        ]
+      },
+      {
+        "day": "Fri",
+        "slots": [
+          {
+            "title": "Weekly take",
+            "who": "Founder"
+          },
+          {
+            "title": "Team spotlight",
+            "who": "Company page"
+          }
+        ]
+      }
+    ]
+  },
   "services": [
     {
       "title": "Positioning & messaging",
       "detail": "One sharp story that every channel, page and rep tells the same way.",
-      "deliverables": ["Positioning statement", "Messaging house", "Homepage rewrite"]
+      "deliverables": [
+        "Positioning statement",
+        "Messaging house",
+        "Homepage rewrite"
+      ]
     },
     {
       "title": "Founder & executive LinkedIn",
       "detail": "Done-for-you content for four voices, built from real conversations.",
-      "deliverables": ["Weekly posts for 4 leaders", "Profile optimisation", "Monthly performance review"],
+      "deliverables": [
+        "Weekly posts for 4 leaders",
+        "Profile optimisation",
+        "Monthly performance review"
+      ],
       "featured": true
     },
     {
       "title": "Creative ABM & proof",
       "detail": "Warm your top accounts and arm sales with stories that close.",
-      "deliverables": ["Tier-1 account program", "3 case studies", "Sales proof library"]
+      "deliverables": [
+        "Tier-1 account program",
+        "3 case studies",
+        "Sales proof library"
+      ]
     }
   ],
+  "timeline": {
+    "lanes": [
+      "Positioning",
+      "LinkedIn",
+      "Proof",
+      "ABM",
+      "Website"
+    ],
+    "rows": [
+      {
+        "task": "Positioning workshop + messaging house",
+        "lane": 0,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "task": "Leadership interviews + profiles",
+        "lane": 1,
+        "start": 2,
+        "end": 3
+      },
+      {
+        "task": "Founder content on new pillars",
+        "lane": 1,
+        "start": 2,
+        "end": 12
+      },
+      {
+        "task": "Leadership posting weekly",
+        "lane": 1,
+        "start": 4,
+        "end": 12
+      },
+      {
+        "task": "Case study interviews + writing",
+        "lane": 2,
+        "start": 3,
+        "end": 7
+      },
+      {
+        "task": "Homepage rewrite",
+        "lane": 4,
+        "start": 4,
+        "end": 7
+      },
+      {
+        "task": "Tier-1 account list + warm-up",
+        "lane": 3,
+        "start": 6,
+        "end": 9
+      },
+      {
+        "task": "Personalised outreach",
+        "lane": 3,
+        "start": 9,
+        "end": 12
+      },
+      {
+        "task": "Benchmark report launch",
+        "lane": 2,
+        "start": 8,
+        "end": 11
+      }
+    ]
+  },
   "roadmap": [
     {
       "phase": "Days 1-30",
       "title": "Foundation",
-      "items": ["Positioning workshop and messaging house", "Leadership interviews and profile updates", "Founder content moves to the new pillars"],
+      "items": [
+        "Positioning workshop and messaging house",
+        "Leadership interviews and profile updates",
+        "Founder content moves to the new pillars"
+      ],
       "outcome": "One clear story, four voices ready, founder content live on the new angle."
     },
     {
       "phase": "Days 31-60",
       "title": "Momentum",
-      "items": ["Leadership team posting weekly", "First two case studies published", "Homepage rewrite shipped"],
+      "items": [
+        "Leadership team posting weekly",
+        "First two case studies published",
+        "Homepage rewrite shipped"
+      ],
       "outcome": "Brand shows up in more feeds, with proof on the site."
     },
     {
       "phase": "Days 61-90",
       "title": "Pipeline",
-      "items": ["ABM program live on 100 accounts", "Lead magnet launched", "Content-to-pipeline reporting in place"],
+      "items": [
+        "ABM program live on 100 accounts",
+        "Lead magnet launched",
+        "Content-to-pipeline reporting in place"
+      ],
       "outcome": "A repeatable engine with at least one deal traced back to this plan."
     }
   ],
+  "outcomesTitle": "What *success* looks like",
+  "outcomesSub": "Where the plan takes Northwind, measured in demos, deals and proof.",
+  "projection": {
+    "title": "Qualified demos per month",
+    "metric": "Qualified demos",
+    "hint": "Projected from your current funnel and our benchmarks for similar programs.",
+    "labels": [
+      "Today",
+      "Month 1",
+      "Month 2",
+      "Month 3",
+      "Month 4",
+      "Month 5",
+      "Month 6"
+    ],
+    "series": [
+      {
+        "name": "Without changes",
+        "values": [
+          20,
+          20,
+          21,
+          21,
+          22,
+          22,
+          23
+        ],
+        "style": "baseline"
+      },
+      {
+        "name": "With the elevraa. plan",
+        "values": [
+          20,
+          23,
+          29,
+          36,
+          44,
+          51,
+          58
+        ]
+      }
+    ],
+    "headline": {
+      "value": "2.9x",
+      "label": "more qualified demos by month 6 than doing nothing"
+    },
+    "note": "Assumes demo-to-close stays at **30%**: roughly **10 extra deals a month** by month 6. We'll replace these estimates with real numbers after the first 30 days."
+  },
   "outcomes": [
-    { "value": "4x", "label": "More voices building trust on LinkedIn" },
-    { "value": "20+", "label": "Qualified meetings from target accounts" },
-    { "value": "3", "label": "Case studies sales can use today" },
-    { "value": "1", "label": "Clear story across every channel" }
+    {
+      "value": "4x",
+      "label": "More voices building trust on LinkedIn"
+    },
+    {
+      "value": "20+",
+      "label": "Qualified meetings from target accounts"
+    },
+    {
+      "value": "3",
+      "label": "Case studies sales can use today"
+    },
+    {
+      "value": "1",
+      "label": "Clear story across every channel"
+    }
   ],
   "needs": [
     "A 60-minute positioning workshop with the founder and leadership",
@@ -183,8 +827,29 @@
   "investment": {
     "sub": "Sample pricing for the template. Replace with real numbers per proposal.",
     "options": [
-      { "name": "Foundation", "price": "$X,XXX", "per": "/ month", "detail": "Positioning plus founder LinkedIn.", "includes": ["Messaging house", "Founder content (3x / week)", "Monthly report"] },
-      { "name": "Growth", "price": "$X,XXX", "per": "/ month", "detail": "Everything in this plan.", "includes": ["Everything in Foundation", "3 executive voices", "Case studies + ABM program"], "featured": true }
+      {
+        "name": "Foundation",
+        "price": "$X,XXX",
+        "per": "/ month",
+        "detail": "Positioning plus founder LinkedIn.",
+        "includes": [
+          "Messaging house",
+          "Founder content (3x / week)",
+          "Monthly report"
+        ]
+      },
+      {
+        "name": "Growth",
+        "price": "$X,XXX",
+        "per": "/ month",
+        "detail": "Everything in this plan.",
+        "includes": [
+          "Everything in Foundation",
+          "3 executive voices",
+          "Case studies + ABM program"
+        ],
+        "featured": true
+      }
     ],
     "note": "Three-month minimum so the roadmap has room to compound."
   },
@@ -193,5 +858,6 @@
     "text": "A 30-minute call to walk through this plan, pressure-test it against your numbers, and agree on what ships first.",
     "button": "Book a strategy call",
     "link": "https://calendly.com/nisarg-elevraa/30min"
-  }
+  },
+  "footnote": "Sample page for a fictional brand, for demonstration only. In a real proposal, figures and timelines are proposed starting points, open to revision once we align."
 }

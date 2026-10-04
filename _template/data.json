@@ -12,52 +12,351 @@
   },
   "hero": {
     "headline": "One-line hook about the brand. Wrap a word in *stars* for the italic accent.",
-    "intro": "Two or three sentences: what this page covers and why they should read it."
+    "intro": "Two or three sentences: what this page covers and why they should read it.",
+    "score": {
+      "value": 5,
+      "benchmark": 8,
+      "label": "Brand presence score",
+      "compare": [
+        {
+          "name": "BRAND",
+          "value": 5,
+          "me": true
+        },
+        {
+          "name": "Competitor A",
+          "value": 8
+        },
+        {
+          "name": "Competitor B",
+          "value": 7
+        }
+      ]
+    }
   },
   "summary": {
     "verdict": "Your honest read in 2-3 sentences. Use **double stars** to bold the key point.",
     "stats": [
-      { "value": "X/10", "label": "Overall brand presence score" },
-      { "value": "X", "label": "Channels underused today" },
-      { "value": "X", "label": "Something worth counting" },
-      { "value": "90 days", "label": "To a repeatable pipeline engine" }
+      {
+        "value": "X/10",
+        "label": "Overall brand presence score"
+      },
+      {
+        "value": "X",
+        "label": "Channels underused today"
+      },
+      {
+        "value": "X",
+        "label": "Something worth counting"
+      },
+      {
+        "value": "90 days",
+        "label": "To a repeatable pipeline engine"
+      }
     ]
   },
   "goals": [
-    { "goal": "What they told you they want", "where": "Which section answers it" }
+    {
+      "goal": "What they told you they want",
+      "where": "Which section answers it"
+    }
   ],
+  "benchmark": {
+    "sub": "How buyers experience BRAND next to the brands they compare you with.",
+    "radar": {
+      "axes": [
+        "Positioning",
+        "Thought leadership",
+        "Customer proof",
+        "Distribution",
+        "Website conversion",
+        "Consistency"
+      ],
+      "series": [
+        {
+          "name": "BRAND",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "me": true
+        },
+        {
+          "name": "Competitor A",
+          "values": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        }
+      ]
+    },
+    "shareOfVoice": [
+      {
+        "name": "Competitor A",
+        "value": 40
+      },
+      {
+        "name": "Competitor B",
+        "value": 30
+      },
+      {
+        "name": "BRAND",
+        "value": 10,
+        "me": true
+      }
+    ],
+    "sovNote": "Optional one-line takeaway.",
+    "compare": {
+      "columns": [
+        "BRAND",
+        "Competitor A",
+        "Competitor B"
+      ],
+      "rows": [
+        {
+          "feature": "Something buyers compare",
+          "values": [
+            "no",
+            "yes",
+            "part"
+          ]
+        }
+      ]
+    }
+  },
   "scorecard": [
-    { "channel": "Channel name", "score": 5, "status": "working | gap | missing", "note": "One-line reason" }
+    {
+      "channel": "Channel name",
+      "score": 5,
+      "status": "working | gap | missing",
+      "note": "One-line reason",
+      "target": 8
+    }
   ],
   "working": [
-    { "title": "What's already good", "detail": "Why it matters and how we build on it." }
+    {
+      "title": "What's already good",
+      "detail": "Why it matters and how we build on it."
+    }
   ],
   "notDoing": [
-    { "title": "Opportunity they're skipping", "detail": "What it costs them.", "impact": "High | Medium | Low" }
+    {
+      "title": "Opportunity they're skipping",
+      "detail": "What it costs them.",
+      "impact": "High | Medium | Low"
+    }
   ],
   "missing": [
-    { "title": "Asset or system that doesn't exist yet", "detail": "Why buyers notice." }
+    {
+      "title": "Asset or system that doesn't exist yet",
+      "detail": "Why buyers notice."
+    }
   ],
+  "funnel": {
+    "sub": "Monthly numbers. Status: working | gap | missing.",
+    "stages": [
+      {
+        "stage": "Aware",
+        "value": "10K",
+        "metric": "reach / month",
+        "status": "gap",
+        "note": "What's happening here.",
+        "leak": "X% move to the next stage"
+      },
+      {
+        "stage": "Website visit",
+        "value": "500",
+        "metric": "visits / month",
+        "status": "gap",
+        "note": "",
+        "leak": "X% book a call"
+      },
+      {
+        "stage": "Customer",
+        "value": "5",
+        "metric": "deals / month",
+        "status": "working",
+        "note": ""
+      }
+    ]
+  },
   "channels": [
     {
       "name": "LinkedIn",
       "status": "working | gap | missing",
       "summary": "One-line read on this channel.",
-      "audit": ["**Finding.** What you saw, as specific as possible."],
-      "plan": [{ "title": "What we'll do", "detail": "How, and why it works." }],
-      "kpis": [{ "metric": "What we'll measure", "target": "Target" }]
+      "audit": [
+        "**Finding.** What you saw, as specific as possible."
+      ],
+      "plan": [
+        {
+          "title": "What we'll do",
+          "detail": "How, and why it works."
+        }
+      ],
+      "kpis": [
+        {
+          "metric": "What we'll measure",
+          "target": "Target"
+        }
+      ],
+      "score": 5,
+      "target": 8
     }
   ],
+  "priorities": [
+    {
+      "label": "Initiative (impact and effort are 0-10)",
+      "impact": 8,
+      "effort": 3
+    }
+  ],
+  "contentEngine": {
+    "sub": "Optional.",
+    "center": {
+      "value": "10",
+      "label": "posts / week"
+    },
+    "mix": [
+      {
+        "name": "Pillar",
+        "pct": 50,
+        "detail": "What it covers"
+      },
+      {
+        "name": "Pillar",
+        "pct": 50,
+        "detail": "What it covers"
+      }
+    ],
+    "week": [
+      {
+        "day": "Mon",
+        "slots": [
+          {
+            "title": "Post type",
+            "who": "Who posts"
+          }
+        ]
+      },
+      {
+        "day": "Tue",
+        "slots": []
+      },
+      {
+        "day": "Wed",
+        "slots": []
+      },
+      {
+        "day": "Thu",
+        "slots": []
+      },
+      {
+        "day": "Fri",
+        "slots": []
+      }
+    ]
+  },
   "services": [
-    { "title": "Service", "detail": "What it means for them.", "deliverables": ["Deliverable"], "featured": false }
+    {
+      "title": "Service",
+      "detail": "What it means for them.",
+      "deliverables": [
+        "Deliverable"
+      ],
+      "featured": false
+    }
   ],
+  "timeline": {
+    "lanes": [
+      "Workstream A",
+      "Workstream B"
+    ],
+    "rows": [
+      {
+        "task": "Task (weeks 1-12)",
+        "lane": 0,
+        "start": 1,
+        "end": 3
+      }
+    ]
+  },
   "roadmap": [
-    { "phase": "Days 1-30", "title": "Foundation", "items": ["Task"], "outcome": "Where they'll be by day 30." },
-    { "phase": "Days 31-60", "title": "Momentum", "items": ["Task"], "outcome": "Where they'll be by day 60." },
-    { "phase": "Days 61-90", "title": "Pipeline", "items": ["Task"], "outcome": "Where they'll be by day 90." }
+    {
+      "phase": "Days 1-30",
+      "title": "Foundation",
+      "items": [
+        "Task"
+      ],
+      "outcome": "Where they'll be by day 30."
+    },
+    {
+      "phase": "Days 31-60",
+      "title": "Momentum",
+      "items": [
+        "Task"
+      ],
+      "outcome": "Where they'll be by day 60."
+    },
+    {
+      "phase": "Days 61-90",
+      "title": "Pipeline",
+      "items": [
+        "Task"
+      ],
+      "outcome": "Where they'll be by day 90."
+    }
   ],
+  "projection": {
+    "title": "Metric per month",
+    "metric": "Metric",
+    "hint": "How you estimated it.",
+    "labels": [
+      "Today",
+      "Month 1",
+      "Month 2",
+      "Month 3"
+    ],
+    "series": [
+      {
+        "name": "Without changes",
+        "values": [
+          10,
+          10,
+          11,
+          11
+        ],
+        "style": "baseline"
+      },
+      {
+        "name": "With the elevraa. plan",
+        "values": [
+          10,
+          13,
+          17,
+          22
+        ]
+      }
+    ],
+    "headline": {
+      "value": "2x",
+      "label": "Headline result"
+    },
+    "note": "Assumptions behind the projection."
+  },
   "outcomes": [
-    { "value": "X", "label": "Measurable result" }
+    {
+      "value": "X",
+      "label": "Measurable result"
+    }
   ],
   "needs": [
     "Access or input you need from them"
@@ -65,7 +364,16 @@
   "investment": {
     "sub": "Optional. Delete this whole block to hide pricing.",
     "options": [
-      { "name": "Plan name", "price": "$X,XXX", "per": "/ month", "detail": "Short description.", "includes": ["Item"], "featured": true }
+      {
+        "name": "Plan name",
+        "price": "$X,XXX",
+        "per": "/ month",
+        "detail": "Short description.",
+        "includes": [
+          "Item"
+        ],
+        "featured": true
+      }
     ],
     "note": "Terms or minimum commitment."
   },

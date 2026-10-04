@@ -14,6 +14,25 @@ Then open `acme/data.json`, replace the placeholder text, commit and push. The p
 
 `sample/` is a fully filled-in example (Northwind Analytics, a made-up brand) to copy from.
 
+## Sections (all optional)
+
+| Key in data.json | What it shows |
+|---|---|
+| `hero.score` | Score gauge vs. category leader, with competitor bars |
+| `summary` | Your honest read + 4 headline numbers |
+| `goals` | Their goals mapped to where the plan answers them |
+| `benchmark` | Radar chart vs. competitors, share-of-voice bars, feature comparison table |
+| `scorecard` | Channel scores out of 10, with optional 90-day `target` marker |
+| `working` / `notDoing` / `missing` | Three-column diagnosis |
+| `funnel` | Buyer-journey funnel showing where pipeline leaks |
+| `channels` | Tabs per channel: current state, plan, KPIs, score gauge |
+| `priorities` | Impact vs. effort matrix (quick wins, big bets, fill-ins, later) |
+| `contentEngine` | Content-mix donut + a typical posting week |
+| `services` | What elevraa. will do |
+| `timeline` + `roadmap` | 12-week timeline + 30-60-90 day cards |
+| `projection` + `outcomes` | Projected-growth line chart + result cards |
+| `needs` / `investment` / `cta` | Asks, pricing, and the call to action |
+
 ## Writing tips
 
 - `*word*` gives the italic serif accent (use in headlines and titles).
