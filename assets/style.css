@@ -149,6 +149,7 @@ h2.title .serif { font-size: 1.1em; letter-spacing: 0; white-space: nowrap; }
 .card.featured { background: var(--ink); color: #fff; border-color: var(--ink); }
 .card.featured p, .card.featured li { color: rgba(255, 255, 255, 0.78); }
 .card.featured h3, .card.featured strong { color: #fff; }
+.card.featured .idx { color: var(--yellow); }
 
 /* ---------- Summary ---------- */
 .verdict {
